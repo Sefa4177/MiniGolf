@@ -104,7 +104,7 @@ public class LineForce : MonoBehaviour
         Vector3 worldMouseNear = Camera.main.ScreenToWorldPoint(screenMousePosNear);
         RaycastHit hit;
 
-        if(Physics.Raycast(worldMouseNear,worldMouseFar - worldMouseNear, out hit, float.PositiveInfinity))
+        if(Physics.Raycast(worldMouseNear,worldMouseFar - worldMouseNear, out hit, 5f))
         {
             return hit.point;
         }

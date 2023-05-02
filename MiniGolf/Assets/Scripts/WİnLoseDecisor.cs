@@ -6,12 +6,14 @@ using UnityEngine.UI;
 
 public class WİnLoseDecisor : MonoBehaviour
 {
-    
-    public GameObject winObject;
     public Text winclock;
     public Text Loseclock;
+
+    public GameObject winObject;
     public GameObject loseObject;
+    
     public GameObject winPopUp;
+
     public GameObject startPosition;
     public string SceneName;
     
@@ -34,7 +36,6 @@ public class WİnLoseDecisor : MonoBehaviour
             gameObject.transform.position = startPosition.transform.position;
             Lives.Instance.Falled();
             Loseclock.text = Clock.instance.textClock.text;
-
         }
     }
 
