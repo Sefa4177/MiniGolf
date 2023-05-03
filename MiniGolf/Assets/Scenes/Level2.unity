@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 656058fe318eb48558d21d66d1a79a2b, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7416536dbe0334cfd888dd1beb75a9fb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06361822, g: 0.052069563, b: 0.056787517, a: 1}
+  m_IndirectSpecularColor: {r: 0.11884108, g: 0.18339348, b: 0.32976314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -205,42 +205,42 @@ PrefabInstance:
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 757211053}
+      objectReference: {fileID: 1398447134}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1398447134}
+      objectReference: {fileID: 757211053}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GameContinue
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GameContinue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonMethods, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: ButtonMethods, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284324870386, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
@@ -251,6 +251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992669284617863498, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 432.7
       objectReference: {fileID: 0}
     - target: {fileID: 4992669284617863499, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
@@ -425,6 +430,21 @@ PrefabInstance:
     - target: {fileID: 4992669285427240100, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992669285688381133, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 757211054}
+    - target: {fileID: 4992669285688381133, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_name
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992669285688381133, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4992669285781591854, guid: d7c01a5edaa1cd54c9b4088ef6b2fc6e,
@@ -752,7 +772,6 @@ GameObject:
   m_Component:
   - component: {fileID: 757211052}
   - component: {fileID: 757211051}
-  - component: {fileID: 757211050}
   - component: {fileID: 757211054}
   - component: {fileID: 757211056}
   - component: {fileID: 757211053}
@@ -765,14 +784,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &757211050
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757211049}
-  m_Enabled: 1
 --- !u!20 &757211051
 Camera:
   m_ObjectHideFlags: 0
@@ -823,7 +834,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757211049}
-  m_LocalRotation: {x: 0.114511915, y: 0.8851556, z: -0.33152577, w: 0.30574054}
+  m_LocalRotation: {x: 0.1145119, y: 0.8851556, z: -0.33152577, w: 0.30574054}
   m_LocalPosition: {x: -4.424425, y: 1.0469998, z: 2.4613738}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1707,7 +1718,7 @@ PrefabInstance:
     - target: {fileID: 5941606034524377559, guid: 32f271a1992558f439bc303633d2bfa3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.114511915
+      value: 0.1145119
       objectReference: {fileID: 0}
     - target: {fileID: 5941606034524377559, guid: 32f271a1992558f439bc303633d2bfa3,
         type: 3}

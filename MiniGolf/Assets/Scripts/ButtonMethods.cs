@@ -17,11 +17,14 @@ public class ButtonMethods : MonoBehaviour
     }
     public void GamePause()
     {
+        Time.timeScale = 0;
+        //BallController.instance.Stop();
         Clock.instance.PauseClock();
         Pauseclock.text = Clock.instance.textClock.text;
     }
     public void GameContinue()
     {
+        Time.timeScale = 1;
         Clock.instance.UnPauseClock();
 
     }

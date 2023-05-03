@@ -21,8 +21,38 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4.unity
     guid: 9bb74299ad0634c4f8991c6bd1eba412
   - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 6d38ea4c2c29e324b9e4725cd2ccf64c
+  - enabled: 1
     path: Assets/Scenes/Level6.unity
     guid: 5e5942444347f4341a594c3b6c30245f
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 0909fc98025e17a44914cce105a693b3
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 3792277225101a94d96e5d6ee9f524e3
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: 3a357c2fe36fb224da722fddc0f9a252
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: dbd1a7415c4d6664780f03823f39e931
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: 9daf2fdce3de04740a20bc754b4f5fff
+  - enabled: 1
+    path: Assets/Scenes/Level12.unity
+    guid: aa7b3240158718b4cabe5cb2b833a6e5
+  - enabled: 1
+    path: Assets/Scenes/Level13.unity
+    guid: 82e23a80ef9b3b74a9b73deb599671ad
+  - enabled: 1
+    path: Assets/Scenes/Level14.unity
+    guid: 588a30d16d2608742825c4f867064b57
+  - enabled: 1
+    path: Assets/Scenes/Level15.unity
+    guid: 1d89672b08bc94044b8720f81506f3cc
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 9375151a1bc59a140a71b790fb8eabf3, type: 2}

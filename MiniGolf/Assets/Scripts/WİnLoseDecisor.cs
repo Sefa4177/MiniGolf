@@ -24,7 +24,9 @@ public class WİnLoseDecisor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject == winObject)
-        {
+        {   
+            BallController.instance.Stop();
+            gameObject.transform.position = startPosition.transform.position;
             winPopUp.SetActive(true);
             Lives.Instance.starNumber();
             Clock.instance.OnWin();
@@ -33,6 +35,7 @@ public class WİnLoseDecisor : MonoBehaviour
         }
         else if(other.gameObject == loseObject)
         {
+            BallController.instance.Stop();
             gameObject.transform.position = startPosition.transform.position;
             Lives.Instance.Falled();
             Loseclock.text = Clock.instance.textClock.text;
